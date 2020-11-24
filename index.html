@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="theme-color" content="#014473">
+
+        
+    <title>mind.drops</title>
+    
+    <link rel="stylesheet" href="style/glider.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="style/main.css">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    
+    
+    <link rel="manifest" href="manifest.json"> 
+  
+    <link rel="apple-touch-icon" href="icons/icon-96x96.png">
+    
+</head>
+
+<body>
+    <div class="burger">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <nav>
+
+        <a><i class="fab fa-adn mute-btn none"></i></a>
+
+        <ul class="nav-links">
+            
+            <li><a id="howToBtn">' Getting started '</a> </li>
+            <li><a id="aboutBtn">' Behind the drop '</a></li>
+            <li><a id="aboutBtn">' Introduction '</a></li>
+            <li><a id="aboutBtn">' Preferences '</a></li>
+
+        </ul>
+    </nav>
+
+    <div class="wrapper">
+        <h1 class="init-btn " id="feed">Feed my mind</h1>
+        <h1 class="init-btn " id="self-feed">I feed my mind</h1>
+
+        <article id="quote"><span id="quote-output"></span></article>
+    </div>
+    <div class="rope-img"><img src="img/rope.png" alt=""></div>
+    <div class="glider-contain multiple">
+
+        <button class="glider-prev">Prev</button>
+        <div class="glider">
+        </div>
+
+    </div>
+    <div class="wrap">
+
+        <div class="modal js-modal">
+            <div class="modal-image">
+                <img src="" class="lotus">
+            </div>
+
+            <p>Your message has been received</p>
+            <button class="js-close"><i class="fas fa-chevron-left"></i></button>
+        </div>
+    </div>
+    <div class="glider-next counter">
+        <img src="" alt="">
+        <span id="counter-span">0</span>
+    </div>
+
+
+
+
+
+    <footer><i class="fas fa-copyright "></i>mind.drops</footer>
+    
+    <!-- <script src="js/app.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dynamics.js/1.1.5/dynamics.min.js"></script>
+    <script src="js/glider.min.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/mala.js"></script>
+    <script src="js/modal.js"></script>  
+
+</html>

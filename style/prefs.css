@@ -1,0 +1,51 @@
+.wrappercolor {
+    width: 90vw;
+    height: 90vh;
+    top: 5vh;
+    left: 5vw;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrappercolor>i {
+    position: relative;
+    font-size: 6rem;
+    margin-top: 1rem;
+}
+
+.orange {
+    color: #F39C12;
+}
+
+.violet {
+    color: #802d59;
+}
+
+.blue {
+    color: #16278c;
+}
+
+.green {
+    color: #254922;
+}
+
+.red {
+    color: #bb5233;
+}
+
+.title {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    /* border-bottom: 1px #F39C12 solid;
+    animation-name: example; */
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transition: all 1s ease-in-out;
+    font-family: 'Raleway';
+}

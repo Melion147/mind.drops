@@ -1,0 +1,198 @@
+:root {
+    --main-bg-color: rgb(255, 255, 255);
+}
+
+.slider .container {
+    position: absolute;
+    height: 90vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    left: 5vw;
+    top: 5vh;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.fas {
+    position: fixed;
+    top: 70%;
+    font-size: 5rem;
+    color: var(--main-bg-color);
+    width: 8rem;
+    height: 8rem;
+    text-align: center;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s ease-in-out;
+}
+
+.wrappercolor {
+    width: 90vw;
+    height: 80vh;
+    top: 10vh;
+    left: 5vw;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrappercolor>i {
+    position: relative;
+}
+
+.orange {
+    color: #F39C12;
+}
+
+.salmon {
+    color: #E9967A;
+}
+
+.blue {
+    color: #5DADE2;
+}
+
+.turkic {
+    color: #48C9B0;
+}
+
+.violet {
+    color: #AF7Ac5;
+}
+
+.title {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5%;
+    /* border-bottom: 1px #F39C12 solid;
+    animation-name: example; */
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transition: all 1s ease-in-out;
+    font-family: 'Raleway';
+}
+
+#mind-drop {
+    font-size: 6rem !important;
+}
+
+#mind-drop span {
+    font-size: 6rem !important;
+}
+
+h2 {
+    margin-top: 65%;
+    text-align: end;
+    position: absolute;
+    width: 55%;
+    transition: all 1.5s ease-in-out;
+    font-size: 2.2rem;
+    line-height: 2.85rem;
+}
+
+.h22 {
+    margin-top: 50%;
+    width: 57%;
+    text-align: left;
+    line-height: 3.3rem;
+    transition: all 1.5s ease-in-out;
+}
+
+.h23 {
+    margin-top: 49%;
+    width: 59%;
+    text-align: left;
+    line-height: 3.5rem;
+    transition: all 1.5s ease-in-out;
+}
+
+.h24 {
+    margin-top: 51%;
+    width: 57%;
+    text-align: left;
+    line-height: 3.5rem;
+    transition: all 1.2s ease-in-out;
+}
+
+.h25 {
+    margin-top: 51%;
+    width: 57%;
+    text-align: left;
+    line-height: 3.5rem;
+    transition: all 1.2s ease-in-out;
+}
+
+.h26 {
+    margin-top: 51%;
+    width: 55%;
+    text-align: left;
+    line-height: 3.5rem;
+    transition: all 1.2s ease-in-out;
+}
+
+span {
+    transition: all 2.5s ease-in-out;
+}
+
+.spanAni {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: var(--main-bg-color);
+}
+
+.fas:hover {
+    color: var(--main-bg-color);
+}
+
+@keyframes example {
+    0% {
+        border-bottom: 1px var(--main-bg-color) solid;
+    }
+    50% {
+        border-bottom: 4px var(--main-bg-color) solid;
+    }
+    0% {
+        border-bottom: 1px var(--main-bg-color) solid;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    h2 {
+        width: 70%;
+        font-size: 1.9rem;
+    }
+    .h22 {
+        margin-top: 40%;
+        width: 73%;
+        font-size: 1.9rem;
+    }
+    .h23 {
+        margin-top: 43%;
+        width: 73%;
+        font-size: 1.9rem;
+    }
+    .h24 {
+        margin-top: 40%;
+        width: 80%;
+        font-size: 1.9rem;
+    }
+    .h25 {
+        margin-top: 45%;
+        width: 90%;
+        font-size: 1.9rem;
+    }
+    .h26 {
+        margin-top: 45%;
+        width: 80%;
+        font-size: 1.9rem;
+    }
+}

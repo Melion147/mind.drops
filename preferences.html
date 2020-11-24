@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="theme-color" content="#FFFFFF">
+
+    <title>mind.drops</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="style/main.css">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="style/prefs.css">
+    <!-- <link rel="manifest" href="manifest.json"> -->
+    <!-- IOS Support -->
+    <link rel="apple-touch-icon" href="icons/icon-96x96.png">
+    
+</head>
+
+<body>
+
+    <div class="wrappercolor">
+
+        <h1 class="title">Choose a theme color</h1>
+
+        <i class="fas fa-circle orange"></i>
+        <i class="fas fa-circle violet"></i>
+        <i class="fas fa-circle blue"></i>
+        <i class="fas fa-circle green"></i>
+        <i class="fas fa-circle red"></i>
+
+    </div>
+
+    </div>
+
+    <!-- <script src="js/app.js"></script> -->
+    <script>
+        document.querySelector('.orange').addEventListener('click', () => {
+            localStorage.Pcolor = '#F39C12'
+            navigation();
+        })
+        document.querySelector('.violet').addEventListener('click', () => {
+            localStorage.Pcolor = '#802d59'
+            navigation();
+        })
+        document.querySelector('.blue').addEventListener('click', () => {
+            localStorage.Pcolor = '#16278c'
+            navigation();
+        })
+        document.querySelector('.green').addEventListener('click', () => {
+            localStorage.Pcolor = '#254922'
+            navigation();
+        })
+        document.querySelector('.red').addEventListener('click', () => {
+            localStorage.Pcolor = '#bb5233'
+            navigation();
+
+        });
+
+        function navigation() {
+            if (localStorage.First === undefined) window.location = "intro.html";
+            else window.location = "index.html";
+        }
+    </script> 
+    
+</body>
+
+</html>

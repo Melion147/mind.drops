@@ -1,0 +1,123 @@
+:root {
+    --bckg-src: url('../img/bck.jpg');
+}
+
+body {
+    background: var(--bckg-src);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    
+}
+
+.container {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3.5rem;
+    padding-bottom: 4rem;
+    font-family: "Raleway", Helvetica, sans-serif;
+    
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5%;
+    border-bottom: 1px #fff solid;
+    animation-name: example;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    transition: all 1s ease-in-out;
+    color: whitesmoke;
+    max-width: 90%;
+}
+
+#howto {
+    justify-content: space-around;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+h2 {
+    margin-top: 2.5rem;
+    font-size: 2.5rem;
+    line-height: 2.85rem;
+    color: #fff;
+    letter-spacing: .5rem;
+    width: 90%;
+    font-weight: 400;
+
+}
+
+p {
+    font-weight: 400;
+    color: white;
+    font-size: 2.2rem;
+    text-align: justify;
+    margin-top: 4rem;
+    line-height: 2.85rem;
+    width: 90%;
+}
+
+ul {
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+li {
+    font-size: 1.9rem;
+    /* color: rgba(39, 55, 70, .95); */
+    color: #fff;
+    list-style: disc;
+    font-weight: 400;
+    text-align: justify;
+    margin-bottom: 1rem;
+
+}
+
+@keyframes example {
+    0% {
+        border-bottom: 1px #fff solid;
+    }
+    50% {
+        border-bottom: 3px #fff solid;
+    }
+    0% {
+        border-bottom: 1px #fff solid;
+    }
+}
+
+.fa-chevron-left {
+    position: fixed;
+    z-index: 4;
+    font-size: 3.5rem;
+    left: 1rem;
+    top: 1rem;
+    height: 4rem;
+    width: 4rem;
+    color: #fff;
+    /* color: rgba(39, 55, 70, .95); */
+    margin: 0;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    p {
+        font-size: 2.1rem;
+    }
+    h1 {
+        font-size: 2.4rem;
+    }
+    h2 {
+        font-size: 1.9rem;
+    }
+    li {
+        font-size: 2rem;
+    }
+}
